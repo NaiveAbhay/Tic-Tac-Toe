@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TIC TAC TOE</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+   <div id="main">
+    <h1>TIC TAC TOE</h1>
+    <div style="margin-bottom: 2%; " id="signs">
+        <h2 id="round">Round: </h2>
+    </div>
+
+    <div  id="center">
+        <div id="player">
+            <h1>Player Details:</h1>
+            <h3 >Player 1: </h3>
+            <input  id="input1" style="margin: 5%; margin-top: 0; width: 60%;" type="text" placeholder="Type Your Name">
+            
+            <h3>Player 2: </h3>
+            <input id="input2" style="margin: 5%;  margin-top: 0; width: 60%;" type="text" placeholder="Type Your Name">
+    
+            <button id="submit" style=" width:fit-content; padding: 2px 6px; border-radius: 5px;">Submit</button>
+    
+        </div>
+        <div id="grid">
+            <div id="row1">
+                <h1 class="box" id="1"> 
+                    
+                </h1>
+                <h1  class="box" id="2">
+                      
+                </h1>
+                <h1  class="box" id="3">
+                    
+                </h1>
+            </div>
+            <div id="row2">
+                <h1  class="box" id="4">
+                    
+                </h1>
+                <h1  class="box" id="5">
+                    
+                </h1>
+                <h1  class="box" id="6">
+                    
+                </h1>
+            </div>
+            <div id="row3">
+                <h1  class="box" id="7">
+                    
+                </h1>
+                <h1  class="box" id="8">
+                    
+                </h1>
+                <h1  class="box" id="9">
+                    
+                </h1>
+            </div>
+        </div>
+        <div id="winner">
+            <h1 id="winnerHeading">winner: </h1>
+            <h3>Scores: </h3>
+            <div id="score">
+                <h3 id="player1b">Player 1 : 0</h3>
+                <h3 id="player2b">Player 2 : 0</h3>
+            </div>
+        </div>
+    </div>
+    <div style="margin-top: 5%; display:flex; gap: 15px; "id="Lower">
+        <button style="padding: 1px 3px; border-radius: 5px;" id="Rematch">Rematch</button>
+        <button style="padding: 1px 10px; border-radius: 5px;" id="Reset">Reset</button>
+    </div>
+    
+   </div>
+
+
+
+    <script src="script.js"></script>
+</body>
+</html>

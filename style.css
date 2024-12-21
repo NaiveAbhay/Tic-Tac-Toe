@@ -1,0 +1,65 @@
+
+#main{
+    height: 120%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    /* background-color: cadetblue; */
+}
+#center{
+    display: flex;
+    height: 330px; 
+    width: 100%;
+    justify-content: space-between;
+}
+#player{
+
+    display: flex;
+    flex-direction: column;
+    height:100%; 
+    width: 20%;
+    margin-left: 5%;
+    align-items: center;
+    background-color: antiquewhite;
+    border-radius: 10px;
+
+
+}
+.box{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 300%; 
+    height: 110px;
+    width: 110px;
+    
+    border-radius: 10px;
+    box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.414);
+    margin-top: 0%;
+    margin-bottom: 4px;
+    margin-right: 4px;
+    background-color: aqua;
+
+}
+#grid{
+
+    height: 330px;
+    width: 330px;
+    display: flex;
+
+}
+
+#winner{
+    height: 330px;
+    width: 20%;
+    margin-right: 5%;
+    background-color: antiquewhite;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    border-radius: 10px;
+}
